@@ -1,7 +1,0 @@
-com\yunsheng\MyAutoConfiguration.class
-com\yunsheng\MyServiceProperties.class
-com\yunsheng\AbstractMyService.class
-com\yunsheng\MyStarterServiceApplication.class
-com\yunsheng\MyStarterServiceV1.class
-META-INF\spring-configuration-metadata.json
-com\yunsheng\MyStarterServiceV2.class
