@@ -8,7 +8,6 @@ import lombok.extern.slf4j.Slf4j;
  * 创建一个V2版本 演示客户端根据自己的情况，选择执行不同版本的服务
  */
 @Slf4j
-@Service
 public class MyStarterServiceV2 extends AbstractMyService {
 
 

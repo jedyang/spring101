@@ -6,10 +6,10 @@
 	<groupId>com.yunsheng</groupId>
 	<artifactId>spring101</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<modules>
-		<module>mystarter</module>
-		<module>spring101main</module>
-	</modules>
+	<!--<modules>-->
+		<!--<module>mystarter</module>-->
+		<!--<module>spring101main</module>-->
+	<!--</modules>-->
 	<packaging>pom</packaging>
 
 	<name>spring101</name>
