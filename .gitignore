@@ -23,3 +23,11 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+kafka/mvnw
+*.jar
+kafka/.mvn/wrapper/maven-wrapper.properties
+*.cmd
+mystarter/target/classes/META-INF/spring-configuration-metadata.json
+mystarter/target/classes/META-INF/spring.factories
+mystarter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+mystarter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
