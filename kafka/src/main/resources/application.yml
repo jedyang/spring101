@@ -1,0 +1,13 @@
+server:
+                                                                                                                                               port: 8081
+                                                                                                                                             spring:
+                                                                                                                                               kafka:
+                                                                                                                                                 # 生产者
+                                                                                                                                                 producer:
+                                                                                                                                                   bootstrap-servers: 10.133.42.153:9092
+                                                                                                                                                 # 消费者
+                                                                                                                                                 consumer:
+                                                                                                                                                       enable-auto-commit: true # 指定消息被消费之后自动提交偏移量
+                                                                                                                                                       group-id: mytest # 消费者组
+                                                                                                                                                       auto-offset-reset: latest # 从最近的地方开始消费
+                                                                                                                                                       bootstrap-servers: 10.133.42.153:9092

@@ -1,4 +1,4 @@
-/target/
+target
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -31,3 +31,4 @@ mystarter/target/classes/META-INF/spring-configuration-metadata.json
 mystarter/target/classes/META-INF/spring.factories
 mystarter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
 mystarter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+*.class
