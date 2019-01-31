@@ -22,6 +22,7 @@
         <module>mystarter</module>
         <module>spring101main</module>
         <module>kafka</module>
+        <module>shiro</module>
     </modules>
 
 
