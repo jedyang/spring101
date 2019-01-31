@@ -32,3 +32,5 @@ mystarter/target/classes/META-INF/spring.factories
 mystarter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
 mystarter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
 *.class
+shiro/.mvn/wrapper/maven-wrapper.properties
+shiro/mvnw
