@@ -20,7 +20,7 @@
 
     <modules>
         <module>mystarter</module>
-        <module>spring101main</module>
+        <module>demo</module>
         <module>kafka</module>
         <module>shiro</module>
     </modules>
