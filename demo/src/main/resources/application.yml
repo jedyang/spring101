@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: prod
+spring101:
+  name: uncley
+  content: "content name is ${spring101.name} and age is ${spring101.age}"
+---
+spring:
+  profiles: test
+spring101:
+  age: 20
+
+---
+spring:
+  profiles: prod
+spring101:
+  age: 40

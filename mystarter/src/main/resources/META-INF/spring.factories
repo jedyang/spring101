@@ -1,4 +1,4 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.yunsheng.MyAutoConfiguration
-org.springframework.boot.env.EnvironmentPostProcessor=com.yunsheng.sourceconfig.MyPropertySourceEnvironmentPostProcessor
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.uncley.MyAutoConfiguration
+org.springframework.boot.env.EnvironmentPostProcessor=com.uncley.sourceconfig.MyPropertySourceEnvironmentPostProcessor
 
-org.springframework.boot.diagnostics.FailureAnalyzer=com.yunsheng.fail.MyFailureAnalyzer
+org.springframework.boot.diagnostics.FailureAnalyzer=com.uncley.fail.MyFailureAnalyzer

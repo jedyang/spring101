@@ -9,34 +9,27 @@
         <groupId>com.yunsheng</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
-    <artifactId>spring101main</artifactId>
-
-    <name>spring101main</name>
+    <artifactId>demo</artifactId>
+    <name>demo</name>
 
     <dependencies>
-        <dependency>
-            <groupId>com.yunsheng</groupId>
-            <artifactId>mystarter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>
