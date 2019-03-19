@@ -1,4 +1,6 @@
-package com.uncley;
+package com.uncley.controller;
+
+import com.uncley.Uncle;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

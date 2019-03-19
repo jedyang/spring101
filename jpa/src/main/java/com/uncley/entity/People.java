@@ -5,12 +5,15 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+import lombok.ToString;
+
 /**
  * @作者 UncleY
  * @时间 2019/3/18
  * @描述
  */
 @Entity //表示对应数据库中一个表
+@ToString
 public class People {
     @Id //主键
     @GeneratedValue  //自增

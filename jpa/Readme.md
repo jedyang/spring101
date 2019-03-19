@@ -1,4 +1,11 @@
-## springboot基础用法
+## spring-data-jpa的使用
+### JPA
+JPA的全称是Java Persistence API。这是一个Spring在数据持久化方面的接口标准。并非是一个实现。目的在于统一目前的ORM开发框架。
+使用spring-data-jpa,开发的感觉就是爽，不需要写一行sql，就可以满足绝大部分的业务开发。
+按照约定好的【方法命名规则】写dao层接口，就可以在不写接口实现的情况下，实现对数据库的访问和操作。同时提供了很多除了CRUD之外的功能，如分页、排序、复杂查询等等。
+
+### 使用 
+
 spring.jpa.hibernate.ddl-auto，其属性值作用区别:
 
     create：

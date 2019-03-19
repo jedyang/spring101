@@ -2,6 +2,7 @@ package com.uncley.repository;
 
 import com.uncley.entity.People;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -10,6 +11,7 @@ import java.util.List;
  * @时间 2019/3/18
  * @描述
  */
+@Repository
 public interface PeopleRepository extends JpaRepository<People, Integer>{
 
     // 扩展sql

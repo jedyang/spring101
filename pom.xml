@@ -20,7 +20,7 @@
 
     <modules>
         <module>mystarter</module>
-        <module>demo</module>
+        <module>jpa</module>
         <module>kafka</module>
         <module>shiro</module>
     </modules>
