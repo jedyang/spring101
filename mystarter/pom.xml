@@ -10,8 +10,8 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>mystarter</artifactId>
-    <name>mystarter</name>
+    <artifactId>my-spring-boot-starter</artifactId>
+    <name>myStarter</name>
 
     <dependencies>
         <dependency>
@@ -19,18 +19,26 @@
             <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-
-        <!-- 编译时生成 spring-configuration-metadata.json -->
-        <!-- 给IDE使用，IDE可以针对自定义配置有提示 -->
+        <!-- 主要的作用是在编译时在META-INF下生成spring-configuration-metadata.json 文件，该文件主要为IDE使用 -->
+        <!-- 即可以通过在application.properties文件中通过ctrl + 点击进入配置属性所在的类中 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+
     </dependencies>
 
 </project>

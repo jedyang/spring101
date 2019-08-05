@@ -1,4 +1,5 @@
+#指定autoconfigure加载的自动装配类是哪个
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.uncley.MyAutoConfiguration
-org.springframework.boot.env.EnvironmentPostProcessor=com.uncley.sourceconfig.MyPropertySourceEnvironmentPostProcessor
 
-org.springframework.boot.diagnostics.FailureAnalyzer=com.uncley.fail.MyFailureAnalyzer
+#org.springframework.boot.env.EnvironmentPostProcessor=com.uncley.sourceconfig.MyPropertySourceEnvironmentPostProcessor
+#org.springframework.boot.diagnostics.FailureAnalyzer=com.uncley.fail.MyFailureAnalyzer
