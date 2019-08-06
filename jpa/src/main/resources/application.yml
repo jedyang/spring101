@@ -1,0 +1,26 @@
+spring:
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.138.26.200:3800/hop
+    username: hop_test
+    password: hoptest,123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+spring101:
+  name: uncley
+  content: "content name is ${spring101.name} and age is ${spring101.age}"
+---
+spring:
+  profiles: test
+spring101:
+  age: 20
+
+---
+spring:
+  profiles: prod
+spring101:
+  age: 40
