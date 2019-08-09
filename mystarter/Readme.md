@@ -15,14 +15,20 @@ spring官方的starter命令为spring-boot-starter-xxx，所以我们开发的�
 4.新建spring.factories文件，指定Starter的自动装配类；  
 
 ### 具体代码
-1，新建一个springboot项目，在pom文件中增加以下依赖：
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
+1，新建一个maven项目(注意不是springboot)，在pom文件中增加以下依赖：
+            
+                <dependency>
+                   <groupId>org.springframework.boot</groupId>
+                   <artifactId>spring-boot-autoconfigure</artifactId>
+                   <version>2.1.3.RELEASE</version>
+               </dependency>
+               <dependency>
+                   <groupId>org.springframework.boot</groupId>
+                   <artifactId>spring-boot-configuration-processor</artifactId>
+                   <version>2.1.3.RELEASE</version>
+               </dependency>
 
-主要的作用是在编译时在META-INF下生成spring-configuration-metadata.json 文件，该文件主要为IDE使用。
+spring-boot-configuration-processor的主要的作用是在编译时在META-INF下生成spring-configuration-metadata.json 文件，该文件主要为IDE使用。
 即可以通过在application.properties文件中通过ctrl + 点击进入配置属性所在的类中 
 
 2，配置类

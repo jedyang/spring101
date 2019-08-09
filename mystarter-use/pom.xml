@@ -24,9 +24,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.yunsheng</groupId>
+			<groupId>com.uncley</groupId>
 			<artifactId>my-spring-boot-starter</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 

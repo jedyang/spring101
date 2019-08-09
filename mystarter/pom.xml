@@ -4,24 +4,25 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <artifactId>spring101</artifactId>
-        <groupId>com.yunsheng</groupId>
-        <version>0.0.1-SNAPSHOT</version>
-    </parent>
-
+    <groupId>com.uncley</groupId>
     <artifactId>my-spring-boot-starter</artifactId>
+    <version>1.0.0</version>
     <name>myStarter</name>
-
+    <description>注意，这不是一个springboot项目</description>
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>2.1.3.RELEASE</version>
+        </dependency>
         <!-- 主要的作用是在编译时在META-INF下生成spring-configuration-metadata.json 文件，该文件主要为IDE使用 -->
         <!-- 即可以通过在application.properties文件中通过ctrl + 点击进入配置属性所在的类中 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
+            <version>2.1.3.RELEASE</version>
         </dependency>
-
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
@@ -30,6 +31,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
             <scope>provided</scope>
         </dependency>
 
